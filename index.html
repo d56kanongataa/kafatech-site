@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kafa Tech | Pacific technology, no limits</title>
+  <meta name="description" content="Kafa Tech builds digital platforms for the Pacific, including Takeaway Pacific, All-Pacific Sports, PacificPay and OFA MAI.">
+  <meta property="og:title" content="Kafa Tech | Pacific technology, no limits">
+  <meta property="og:description" content="Digital platforms that connect Pacific islands and communities.">
+  <meta property="og:url" content="https://kafatech.to/">
+  <meta property="og:image" content="https://kafatech.to/assets/logos/kafatech.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="assets/logos/favicon.png">
+  <link rel="preload" href="assets/fonts/sora.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="loading">
+  <div class="intro" aria-hidden="true"><img src="assets/logos/kafatech.png" alt=""><span class="intro-ring"></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Kafa Tech home">
+      <img src="assets/logos/kafatech.png" alt="" class="brand-logo" data-fallback="KT">
+      <span>KAFA<b>TECH</b></span>
+    </a>
+    <nav aria-label="Primary">
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu">
+        <li><a href="#projects">Platforms</a></li>
+        <li><a href="#services">What we do</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#studio">Studio</a></li>
+        <li><a href="#contact" class="pill">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="glow" aria-hidden="true"></div>
+      <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <img src="assets/logos/kafatech.png" alt="Kafa Tech" class="hero-logo" data-fallback="KT">
+        <p class="eyebrow reveal">Island Technology</p>
+        <h1 class="split-text" aria-label="Pacific. No limits."><span class="line">Pacific.</span><span class="line grad">No limits.</span></h1>
+        <p class="lead reveal" style="--d:.2s">We build the digital platforms that connect Pacific islands and communities, from food delivery and payments to sport.</p>
+        <div class="cta reveal" style="--d:.3s">
+          <a class="btn primary" href="#projects">Explore our platforms</a>
+          <a class="btn ghost" href="#contact">Work with us</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#projects" aria-label="Scroll to platforms"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true"><div class="track" id="marquee"></div></div>
+
+    <!-- PLATFORMS -->
+    <section id="projects" class="section">
+      <p class="eyebrow reveal">Faith &amp; Works</p>
+      <h2 class="reveal">Our platforms</h2>
+      <p class="sub reveal">Every Kafa Tech product in one place.</p>
+      <p class="hint reveal">Tap to open &nbsp;·&nbsp; Press and hold to flip</p>
+      <div class="filters reveal" role="tablist" aria-label="Filter platforms">
+        <button role="tab" aria-selected="true" data-filter="all">All</button>
+        <button role="tab" aria-selected="false" data-filter="live">Live</button>
+        <button role="tab" aria-selected="false" data-filter="soon">Coming soon</button>
+      </div>
+      <div class="grid" id="project-grid"></div>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section id="services" class="section alt">
+      <p class="eyebrow reveal">What we do</p>
+      <h2 class="reveal">Technology built for the Pacific</h2>
+      <p class="sub reveal">Digital transformation, consulting and partnerships that put modern technology to work for Pacific businesses and communities.</p>
+      <div class="pillars">
+        <article class="pillar reveal"><span class="num">01</span><h3>Built for island life</h3><p>Products designed around patchy connectivity, cash-first customers and close-knit communities.</p></article>
+        <article class="pillar reveal" style="--d:.1s"><span class="num">02</span><h3>Tools that grow business</h3><p>Ordering, payments and booking tools that help local merchants sell more and get paid faster.</p></article>
+        <article class="pillar reveal" style="--d:.2s"><span class="num">03</span><h3>Partners in community</h3><p>We work alongside government, schools, churches and sport to grow the regional digital economy.</p></article>
+      </div>
+      <div class="stats reveal">
+        <div><b data-count="0" id="stat-projects">0</b><span>Platforms</span></div>
+        <div><b data-count="22">0</b><span>Pacific Island nations &amp; territories</span></div>
+      </div>
+    </section>
+
+    <!-- AI -->
+    <section id="ai" class="section">
+      <p class="eyebrow reveal">Kafa Tech AI</p>
+      <h2 class="reveal">Tonga's AI-first technology company</h2>
+      <p class="sub reveal">We are building practical AI into every Kafa Tech platform, designed for Pacific languages, island connectivity and the people who use it. These features are in development.</p>
+      <div class="pillars">
+        <article class="pillar reveal"><span class="num">Takeaway Pacific</span><h3>Smarter rides and delivery</h3><p>Fairer fares, faster dispatch, accurate delivery times and a support assistant in Tongan and English.</p></article>
+        <article class="pillar reveal" style="--d:.08s"><span class="num">All-Pacific Sports</span><h3>Stories from the stats</h3><p>Match reports and athlete highlights written from verified game stats, plus talent signals for scouts.</p></article>
+        <article class="pillar reveal" style="--d:.16s"><span class="num">Fale Fonua</span><h3>Faster land cases</h3><p>Reads land documents, routes requests and complaints, and summarises each case for staff. A person always makes the decision.</p></article>
+        <article class="pillar reveal"><span class="num">Pacific Exchange</span><h3>The right room, right now</h3><p>Matches guests to today's open rooms, tours and services across the agent network.</p></article>
+        <article class="pillar reveal" style="--d:.08s"><span class="num">PacificPay</span><h3>Safer payments</h3><p>Flags unusual payments early to help protect Pacific businesses and their customers from fraud.</p></article>
+        <article class="pillar reveal" style="--d:.16s"><span class="num">OFA MAI</span><h3>Better matches, safer chats</h3><p>Smarter match suggestions and safety moderation to keep the community respectful.</p></article>
+      </div>
+      <div class="split ai-split">
+        <div>
+          <p class="eyebrow reveal">Beyond our platforms</p>
+          <h2 class="reveal">AI that speaks our language</h2>
+          <p class="sub left reveal">Most AI is built far from the islands. We want Tongan to be part of the AI future, built with the communities who speak it.</p>
+          <a class="btn ghost reveal" href="mailto:hello@kafatech.to?subject=Kafa%20Tech%20AI">Talk to us about AI</a>
+        </div>
+        <div class="cards-2">
+          <article class="mini reveal"><h3>Tongan-language assistant</h3><p>An assistant that understands and answers in Tongan, developed with local schools, churches and communities.</p></article>
+          <article class="mini reveal" style="--d:.08s"><h3>AI training</h3><p>Practical workshops that help government, businesses and schools use AI safely and well.</p></article>
+          <article class="mini reveal" style="--d:.16s"><h3>People decide</h3><p>Our AI supports people. It never replaces their judgement on what matters.</p></article>
+          <article class="mini reveal" style="--d:.24s"><h3>Private by design</h3><p>We design every AI feature with privacy in mind from day one.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDIO -->
+    <section id="studio" class="section">
+      <div class="split">
+        <div>
+          <p class="eyebrow reveal">Our creative studio</p>
+          <h2 class="reveal">3VA Mai Studios</h2>
+          <p class="sub left reveal">Branding, marketing and content for local businesses. Strong communities are built on thriving local brands, and we help them tell their story.</p>
+        </div>
+        <div class="cards-2">
+          <article class="mini reveal"><h3>Brand identity</h3><p>Identities that feel local and are ready to grow across the region.</p></article>
+          <article class="mini reveal" style="--d:.08s"><h3>Digital marketing</h3><p>Campaigns that reach customers where they already are.</p></article>
+          <article class="mini reveal" style="--d:.16s"><h3>Creative content</h3><p>Photography, design and copy that tell your story well.</p></article>
+          <article class="mini reveal" style="--d:.24s"><h3>Community</h3><p>When local businesses succeed, we all succeed.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a project in mind?</h2>
+        <p>Tell us what you're building and we'll get back to you within two business days.</p>
+        <a class="btn primary" href="mailto:hello@kafatech.to">hello@kafatech.to</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-text">KAFA<b>TECH</b></span>
+        <p>Island Technology. Pacific, no limits.</p>
+        <p>Nuku'alofa, Kingdom of Tonga</p>
+      </div>
+      <div><h4>Platforms</h4><ul id="footer-projects"></ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="#services">What we do</a></li>
+        <li><a href="#ai">Kafa Tech AI</a></li>
+        <li><a href="#studio">3VA Mai Studios</a></li>
+        <li><a href="mailto:hello@kafatech.to">hello@kafatech.to</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul></div>
+    </div>
+    <p class="copy">© <span id="year"></span> Kafa Tech Limited. Registered in the Kingdom of Tonga, company no. LC9006692.</p>
+  </footer>
+
+  <dialog id="details" class="details" aria-label="Platform details">
+    <div class="details-card">
+      <button class="details-close" type="button" aria-label="Close">×</button>
+      <div class="details-body"></div>
+    </div>
+  </dialog>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
