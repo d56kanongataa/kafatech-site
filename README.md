@@ -20,7 +20,7 @@ All motion is disabled for visitors with "reduce motion" turned on.
 This repo is served by GitHub Pages from `main` (root). `CNAME` holds the domain `kafatech.to`.
 Any push to `main` goes live within a minute or two. No build step.
 
-DNS at the .to registrar (leave the `MX` email records alone):
+DNS is managed in Netlify DNS (leave the `MX` email records alone):
 - `A` records, host `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
 - `CNAME` record, host `www`: `d56kanongataa.github.io`
 
